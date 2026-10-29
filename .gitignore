@@ -1,0 +1,5 @@
+data/state/
+*.tmp
+*.lock
+node_modules/
+Thumbs.db

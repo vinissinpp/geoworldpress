@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geo World Press</title>
+<style>
+  :root {
+    --bg: #04060b;
+    --panel: rgba(10, 14, 24, .94);
+    --line: rgba(255, 255, 255, .12);
+    --text: #e8ecf3;
+    --muted: #97a1b3;
+    --accent: #ffb547;
+  }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font-family: Inter, "Segoe UI", system-ui, sans-serif; overflow: hidden; }
+  #globe { position: fixed; inset: 0; }
+
+  header { position: fixed; top: 16px; left: 16px; z-index: 5; pointer-events: none; }
+  header h1 { margin: 0; font-size: 20px; letter-spacing: .5px; }
+  header h1 span { color: var(--accent); }
+  header p { margin: 2px 0 10px; color: var(--muted); font-size: 12px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 10px; font-size: 11px; color: var(--muted); max-width: 360px; }
+  .legend i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; background: var(--c); }
+
+  .lang { position: fixed; top: 16px; right: 16px; z-index: 6; display: flex; gap: 4px; }
+  .lang button { background: var(--panel); color: var(--muted); border: 1px solid var(--line);
+    border-radius: 6px; padding: 5px 9px; font: inherit; font-size: 11px; font-weight: 600; cursor: pointer; }
+  .lang button.on { color: var(--accent); border-color: var(--accent); }
+
+  .styles { position: fixed; top: 52px; right: 16px; z-index: 5; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; max-width: 50vw; }
+  .styles button, .lance { background: var(--panel); color: var(--text); border: 1px solid var(--line);
+    border-radius: 8px; padding: 7px 11px; font: inherit; font-size: 12px; cursor: pointer; }
+  .styles button.on { border-color: var(--accent); color: var(--accent); }
+  .lance { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); z-index: 5; padding: 9px 16px; }
+
+  .marker { width: 7px; height: 7px; border-radius: 50%; background: var(--c); cursor: pointer;
+    pointer-events: auto; transform: translate(-50%, -50%); box-shadow: 0 0 6px var(--c); }
+  .marker.top { width: 14px; height: 14px; animation: pulse 2.2s infinite; }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 var(--c); }
+    70% { box-shadow: 0 0 0 14px transparent; }
+    100% { box-shadow: 0 0 0 0 transparent; }
+  }
+
+  #balloon { position: fixed; z-index: 10; width: 330px; max-width: calc(100vw - 32px); display: none;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0,0,0,.5); backdrop-filter: blur(6px); font-size: 13px; }
+  #balloon .top { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 12px 0; }
+  #balloon .country { font-weight: 600; font-size: 13px; }
+  #balloon .country small { color: var(--muted); font-weight: 400; }
+  #balloon .x { background: none; border: 0; color: var(--muted); cursor: pointer; font-size: 16px; }
+  #balloon .body { padding: 8px 12px 10px; }
+  #balloon .meta { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 11px; color: var(--muted); }
+  #balloon .tag { padding: 2px 8px; border-radius: 99px; background: color-mix(in srgb, var(--c) 22%, transparent); color: var(--c); }
+  #balloon .star { color: var(--accent); }
+  #balloon h3 { margin: 0 0 6px; font-size: 15px; line-height: 1.3; }
+  #balloon p { margin: 0 0 8px; color: #c4cbd8; line-height: 1.45; }
+  #balloon .src { display: flex; flex-wrap: wrap; gap: 6px; }
+  #balloon .src a { color: var(--text); text-decoration: none; font-size: 12px; border: 1px solid var(--line);
+    border-radius: 6px; padding: 3px 8px; }
+  #balloon .src a:hover { border-color: var(--accent); color: var(--accent); }
+  #balloon .nav { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding: 6px 8px; }
+  #balloon .nav button { background: none; border: 0; color: var(--text); font-size: 18px; cursor: pointer; padding: 2px 10px; }
+  #balloon .nav button:disabled { opacity: .25; cursor: default; }
+  #balloon .nav span { color: var(--muted); font-size: 11px; }
+</style>
+</head>
+<body>
+<div id="globe"></div>
+
+<header>
+  <h1>Geo World <span>Press</span></h1>
+  <p id="sub"></p>
+  <p id="status"></p>
+  <div class="legend" id="legend"></div>
+</header>
+
+<div class="lang" id="lang"></div>
+<div class="styles" id="styles"></div>
+<button class="lance" id="lance"></button>
+<div id="balloon"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/globe.gl@2.32.0/dist/globe.gl.min.js"></script>
+<script>
+// Cores das categorias (o texto vem de I18N, por idioma)
+const COLOR = {
+  eleicao: '#4ea8ff', votacao: '#b48cff', protesto: '#ff9f43',
+  conflito: '#ff4d5e', diplomacia: '#3ddc97', crise: '#ffd166',
+};
+
+// Textos da interface. As notícias em si continuam no idioma em que o Claude as escreveu (português)
+const I18N = {
+  pt: {
+    sub: 'Geopolítica · principais lances das últimas 24 h',
+    loading: 'Carregando…',
+    empty: 'Ainda sem notícias: rode a primeira atualização.',
+    error: 'Não foi possível carregar as notícias agora.',
+    status: (n, p, ago) => `${n} notícias em ${p} países · atualizado ${ago}`,
+    agoMin: m => `há ${m} min`,
+    agoH: h => `há ${h} h`,
+    lance: '♟ Lance do dia',
+    lanceBadge: (i, n) => `♟ Lance do dia · ${i}/${n}`,
+    lanceTag: '♟ lance do dia',
+    news: n => n === 1 ? '1 notícia' : `${n} notícias`,
+    nav: (i, n) => `${i} de ${n}`,
+    close: 'Fechar',
+    cats: { eleicao: 'Eleição', votacao: 'Votação', protesto: 'Protesto', conflito: 'Conflito', diplomacia: 'Diplomacia', crise: 'Crise' },
+    styles: { capitais: '🏛 Capitais', realista: '🌎 Satélite', noturno: '🌃 Noite', tatico: '🛰 Tático' },
+  },
+  en: {
+    sub: 'Geopolitics · top moves of the last 24 h · summaries in Portuguese',
+    loading: 'Loading…',
+    empty: 'No stories yet: run the first update.',
+    error: 'Could not load the stories right now.',
+    status: (n, p, ago) => `${n} stories in ${p} countries · updated ${ago}`,
+    agoMin: m => `${m} min ago`,
+    agoH: h => `${h} h ago`,
+    lance: '♟ Move of the day',
+    lanceBadge: (i, n) => `♟ Move of the day · ${i}/${n}`,
+    lanceTag: '♟ move of the day',
+    news: n => n === 1 ? '1 story' : `${n} stories`,
+    nav: (i, n) => `${i} of ${n}`,
+    close: 'Close',
+    cats: { eleicao: 'Election', votacao: 'Vote', protesto: 'Protest', conflito: 'Conflict', diplomacia: 'Diplomacy', crise: 'Crisis' },
+    styles: { capitais: '🏛 Capitals', realista: '🌎 Satellite', noturno: '🌃 Night', tatico: '🛰 Tactical' },
+  },
+  es: {
+    sub: 'Geopolítica · principales jugadas de las últimas 24 h · resúmenes en portugués',
+    loading: 'Cargando…',
+    empty: 'Aún no hay noticias: ejecuta la primera actualización.',
+    error: 'No se pudieron cargar las noticias ahora.',
+    status: (n, p, ago) => `${n} noticias en ${p} países · actualizado ${ago}`,
+    agoMin: m => `hace ${m} min`,
+    agoH: h => `hace ${h} h`,
+    lance: '♟ Jugada del día',
+    lanceBadge: (i, n) => `♟ Jugada del día · ${i}/${n}`,
+    lanceTag: '♟ jugada del día',
+    news: n => n === 1 ? '1 noticia' : `${n} noticias`,
+    nav: (i, n) => `${i} de ${n}`,
+    close: 'Cerrar',
+    cats: { eleicao: 'Elección', votacao: 'Votación', protesto: 'Protesta', conflito: 'Conflicto', diplomacia: 'Diplomacia', crise: 'Crisis' },
+    styles: { capitais: '🏛 Capitales', realista: '🌎 Satélite', noturno: '🌃 Noche', tatico: '🛰 Táctico' },
+  },
+};
+const LANG_TAG = { pt: 'pt-BR', en: 'en', es: 'es' };
+
+let lang = 'pt';
+try { lang = localStorage.getItem('gwp-lang') || (navigator.language || '').slice(0, 2) || 'pt'; } catch {}
+if (!I18N[lang]) lang = 'en';
+const t = key => I18N[lang][key];
+
+const IMG = 'https://cdn.jsdelivr.net/npm/three-globe@2.31.0/example/img/';
+const STYLES = {
+  capitais: { img: IMG + 'earth-night.jpg', bump: null, labels: true,
+              atm: '#ffb547', border: 'rgba(255,181,71,.12)', hover: 'rgba(255,181,71,.16)' },
+  realista: { img: IMG + 'earth-blue-marble.jpg', bump: IMG + 'earth-topology.png',
+              atm: '#8ccfff', border: 'rgba(255,255,255,.28)', hover: 'rgba(255,181,71,.28)' },
+  noturno:  { img: IMG + 'earth-night.jpg', bump: null,
+              atm: '#4b74ff', border: 'rgba(140,180,255,.22)', hover: 'rgba(255,181,71,.22)' },
+  tatico:   { img: IMG + 'earth-dark.jpg', bump: IMG + 'earth-topology.png',
+              atm: '#22d3ee', border: 'rgba(34,211,238,.55)', hover: 'rgba(34,211,238,.18)' },
+};
+
+let style = 'capitais';
+let hoverPoly = null;
+let capitals = [];
+let data = { noticias: [], lances: [] };
+let countries = new Map(); // a3 → { a3, pais, lat, lng, itens, rel, cat, top }
+let state = 'loading';     // loading | ok | error
+let lanceIdx = -1;
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const alpha = (hex, a) => hex + Math.round(a * 255).toString(16).padStart(2, '0');
+function ago(iso) {
+  const min = Math.round((Date.now() - Date.parse(iso)) / 60000);
+  return min < 60 ? t('agoMin')(Math.max(min, 1)) : t('agoH')(Math.round(min / 60));
+}
+
+const world = Globe()(document.getElementById('globe'))
+  .backgroundImageUrl(IMG + 'night-sky.png')
+  .showAtmosphere(true).atmosphereAltitude(0.18)
+  .polygonSideColor(() => 'rgba(0,0,0,0)')
+  .polygonAltitude(p => p === hoverPoly ? 0.012 : 0.004)
+  .polygonsTransitionDuration(200)
+  .htmlAltitude(0.015)
+  .htmlElement(c => {
+    const el = document.createElement('div');
+    el.className = 'marker' + (c.top ? ' top' : '');
+    el.style.setProperty('--c', COLOR[c.cat]);
+    el.title = c.pais;
+    el.onmouseenter = () => { if (!pinned) open(c.a3); };
+    el.onmouseleave = () => scheduleHide();
+    el.onclick = () => { open(c.a3); pinned = true; };
+    return el;
+  })
+  // Capitais no estilo do exemplo World Cities; as que têm notícia ganham a cor da categoria
+  .labelLat(c => c.lat).labelLng(c => c.lng).labelText(c => c.nome)
+  .labelSize(c => countries.has(c.a3) ? 1.2 : Math.min(1, Math.max(0.45, Math.sqrt(c.pop) * 4e-4)))
+  .labelDotRadius(c => countries.has(c.a3) ? 0.35 : Math.min(0.45, Math.max(0.2, Math.sqrt(c.pop) * 1.8e-4)))
+  .labelColor(c => countries.has(c.a3) ? COLOR[countries.get(c.a3).cat] : 'rgba(255,190,110,.7)')
+  .labelResolution(2).labelAltitude(0.006)
+  .onLabelHover(c => {
+    document.body.style.cursor = c ? 'pointer' : '';
+    if (pinned) return;
+    if (c && countries.has(c.a3)) open(c.a3); else scheduleHide();
+  })
+  .onLabelClick(c => { if (countries.has(c.a3)) go(c.a3); });
+
+world.controls().autoRotate = true;
+world.controls().autoRotateSpeed = 0.35;
+world.controls().addEventListener('start', () => world.controls().autoRotate = false);
+world.pointOfView({ lat: 10, lng: -20, altitude: 2.3 });
+
+// País com notícia fica "aquecido" na cor da categoria principal, mais forte quanto maior a relevância
+function capColor(p) {
+  const s = STYLES[style];
+  if (p === hoverPoly) return s.hover;
+  const c = countries.get(p.properties.a3);
+  return c ? alpha(COLOR[c.cat], 0.06 + c.rel * 0.05) : 'rgba(0,0,0,0)';
+}
+
+function applyStyle(key) {
+  style = key;
+  const s = STYLES[key];
+  world.globeImageUrl(s.img).bumpImageUrl(s.bump).atmosphereColor(s.atm)
+    .polygonStrokeColor(() => s.border)
+    .polygonCapColor(capColor)
+    .labelsData(s.labels ? capitals : []);
+  document.querySelectorAll('#styles button').forEach(b => b.classList.toggle('on', b.dataset.k === key));
+}
+document.getElementById('styles').onclick = e => {
+  const b = e.target.closest('button');
+  if (b) applyStyle(b.dataset.k);
+};
+
+// Seletor de idioma: fica salvo no navegador
+document.getElementById('lang').innerHTML = Object.keys(I18N)
+  .map(k => `<button data-l="${k}">${k.toUpperCase()}</button>`).join('');
+document.getElementById('lang').onclick = e => {
+  const b = e.target.closest('button');
+  if (b) setLang(b.dataset.l);
+};
+function setLang(l) {
+  lang = l;
+  try { localStorage.setItem('gwp-lang', l); } catch {}
+  renderChrome();
+  if (cur && countries.has(cur.a3)) open(cur.a3, cur.i);
+}
+
+// Atualiza todos os textos fixos da tela
+function renderChrome() {
+  document.documentElement.lang = LANG_TAG[lang];
+  document.querySelectorAll('#lang button').forEach(b => b.classList.toggle('on', b.dataset.l === lang));
+  document.getElementById('sub').textContent = t('sub');
+  document.getElementById('legend').innerHTML = Object.keys(COLOR)
+    .map(k => `<span><i style="--c:${COLOR[k]}"></i>${t('cats')[k]}</span>`).join('');
+  document.getElementById('styles').innerHTML = Object.keys(STYLES)
+    .map(k => `<button data-k="${k}">${t('styles')[k]}</button>`).join('');
+  applyStyle(style);
+  renderLance();
+  renderStatus();
+}
+function renderLance() {
+  document.getElementById('lance').textContent = lanceIdx < 0
+    ? t('lance') : t('lanceBadge')(lanceIdx + 1, data.lances.length);
+}
+function renderStatus() {
+  const el = document.getElementById('status');
+  if (state === 'loading') el.textContent = t('loading');
+  else if (state === 'error') el.textContent = t('error');
+  else if (!data.noticias.length) el.textContent = t('empty');
+  else el.textContent = t('status')(data.noticias.length, countries.size, ago(data.atualizado));
+}
+
+fetch('data/paises.geojson').then(r => r.json()).then(geo => {
+  world.polygonsData(geo.features).onPolygonHover(p => {
+    hoverPoly = p;
+    world.polygonCapColor(capColor);
+    document.body.style.cursor = p ? 'pointer' : '';
+    if (pinned) return;
+    if (p && countries.has(p.properties.a3)) open(p.properties.a3); else scheduleHide();
+  }).onPolygonClick(p => { if (countries.has(p.properties.a3)) go(p.properties.a3); });
+});
+fetch('data/capitais.json').then(r => r.json()).then(d => { capitals = d; applyStyle(style); });
+
+// ---- Dados ----
+function indexar() {
+  countries = new Map();
+  const lances = new Set(data.lances);
+  for (const n of data.noticias) {
+    if (!countries.has(n.a3)) countries.set(n.a3, { a3: n.a3, pais: n.pais, lat: n.lat, lng: n.lng, itens: [] });
+    countries.get(n.a3).itens.push(n);
+  }
+  for (const c of countries.values()) {
+    c.itens.sort((a, b) => b.rel - a.rel || b.atualizado.localeCompare(a.atualizado));
+    c.rel = c.itens[0].rel;
+    c.cat = c.itens[0].cat;
+    c.top = c.itens.some(n => lances.has(n.id));
+  }
+}
+async function carregar() {
+  try {
+    data = await fetch('data/news.json', { cache: 'no-store' }).then(r => r.json());
+    state = 'ok';
+  } catch {
+    state = 'error';
+    renderStatus();
+    return;
+  }
+  indexar();
+  world.htmlElementsData([...countries.values()]).polygonCapColor(capColor);
+  applyStyle(style);
+  renderStatus();
+  renderLance();
+  if (cur && countries.has(cur.a3)) open(cur.a3, cur.i); else if (cur) close();
+}
+carregar();
+setInterval(carregar, 5 * 60e3);
+
+// ---- Balão ----
+const balloon = document.getElementById('balloon');
+let cur = null, pinned = false, hideTimer = null;
+
+function open(a3, i = 0) {
+  clearTimeout(hideTimer);
+  const c = countries.get(a3);
+  i = Math.min(i, c.itens.length - 1);
+  cur = { a3, i };
+  const n = c.itens[i];
+  const lance = data.lances.includes(n.id);
+  balloon.style.setProperty('--c', COLOR[n.cat]);
+  balloon.innerHTML = `
+    <div class="top">
+      <span class="country">${esc(c.pais)} <small>· ${t('news')(c.itens.length)}</small></span>
+      <button class="x" title="${t('close')}">✕</button>
+    </div>
+    <div class="body">
+      <div class="meta"><span class="tag">${t('cats')[n.cat]}</span>
+        ${lance ? `<span class="star">${t('lanceTag')}</span>` : ''}
+        <span>${'●'.repeat(n.rel)}${'○'.repeat(5 - n.rel)}</span><span>${ago(n.atualizado)}</span></div>
+      <h3>${esc(n.titulo)}</h3>
+      <p>${esc(n.resumo)}</p>
+      <div class="src">${n.fontes.map(f =>
+        `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nome)} · ${esc(f.lang)} ↗</a>`).join('')}</div>
+    </div>
+    ${c.itens.length > 1 ? `<div class="nav"><button data-d="-1" ${i === 0 ? 'disabled' : ''}>‹</button>
+      <span>${t('nav')(i + 1, c.itens.length)}</span>
+      <button data-d="1" ${i === c.itens.length - 1 ? 'disabled' : ''}>›</button></div>` : ''}`;
+  balloon.querySelector('.x').onclick = close;
+  balloon.querySelectorAll('.nav button').forEach(b => b.onclick = () => { pinned = true; open(a3, cur.i + +b.dataset.d); });
+  balloon.style.display = 'block';
+  place();
+}
+function go(a3, i = 0) {
+  pinned = true;
+  world.controls().autoRotate = false;
+  const c = countries.get(a3);
+  world.pointOfView({ lat: c.lat, lng: c.lng, altitude: 1.9 }, 900);
+  open(a3, i);
+}
+function close() { pinned = false; cur = null; balloon.style.display = 'none'; }
+function scheduleHide() {
+  if (pinned) return;
+  clearTimeout(hideTimer);
+  hideTimer = setTimeout(close, 350);
+}
+balloon.onmouseenter = () => clearTimeout(hideTimer);
+balloon.onmouseleave = () => scheduleHide();
+
+function place() {
+  if (!cur) return;
+  const c = countries.get(cur.a3);
+  if (!c) return;
+  const p = world.getScreenCoords(c.lat, c.lng, 0.015);
+  const w = balloon.offsetWidth, h = balloon.offsetHeight;
+  balloon.style.left = Math.min(Math.max(16, p.x + 18), innerWidth - w - 16) + 'px';
+  balloon.style.top = Math.min(Math.max(16, p.y - h / 2), innerHeight - h - 16) + 'px';
+}
+(function loop() { place(); requestAnimationFrame(loop); })();
+
+// Cada clique leva ao próximo lance do dia
+document.getElementById('lance').onclick = () => {
+  if (!data.lances.length) return;
+  lanceIdx = (lanceIdx + 1) % data.lances.length;
+  const n = data.noticias.find(x => x.id === data.lances[lanceIdx]);
+  if (!n) return;
+  go(n.a3, countries.get(n.a3).itens.indexOf(n));
+  renderLance();
+};
+addEventListener('resize', () => world.width(innerWidth).height(innerHeight));
+
+renderChrome();
+</script>
+</body>
+</html>

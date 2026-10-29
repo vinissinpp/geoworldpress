@@ -1,0 +1,1919 @@
+{
+ "atualizado": "2026-10-29T19:01:57.908Z",
+ "seq": 69,
+ "lances": [
+  "n1",
+  "n7",
+  "n58",
+  "n4",
+  "n12"
+ ],
+ "noticias": [
+  {
+   "id": "n1",
+   "a3": "ISR",
+   "pais": "Israel",
+   "cat": "eleicao",
+   "rel": 5,
+   "titulo": "Eleição em Israel termina sem maioria clara para bloco de Netanyahu",
+   "resumo": "Com quase toda a apuração concluída, Likud e aliados somam 53 das 120 cadeiras da Knesset, abaixo da maioria necessária, abrindo disputa pela formação de governo.",
+   "fontes": [
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:47:20.000Z"
+    },
+    {
+     "nome": "Guardian",
+     "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:49:57.000Z"
+    },
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/medio-oriente/20261029-las-denuncias-de-supuesta-injerencia-extranjera-a%C3%B1aden-incertidumbre-al-escrutinio-en-israel",
+     "lang": "ES",
+     "publicado": "2026-10-29T16:51:28.000Z"
+    },
+    {
+     "nome": "Africanews",
+     "url": "http://www.africanews.com/2026/10/28/no-clear-winner-in-israels-first-election-since-the-2023-hamas-attack/",
+     "lang": "EN",
+     "publicado": "2026-10-29T08:49:14.000Z"
+    },
+    {
+     "nome": "RFI Brasil",
+     "url": "https://www.rfi.fr/br/mundo/20261029-impasse-eleitoral-em-israel-persiste-e-partidos-%C3%A1rabes-ganham-for%C3%A7a-em-decis%C3%A3o-de-futuro-governo",
+     "lang": "PT",
+     "publicado": "2026-10-29T10:07:52.000Z"
+    },
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/netanyahu-gana-las-elecciones-con-un-100-escrutado-a-falta-de-los-votos-de-doble-sobre/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:31:20.000Z"
+    }
+   ],
+   "lat": 31.778,
+   "lng": 35.207,
+   "publicado": "2026-10-29T15:47:20.000Z",
+   "atualizado": "2026-10-29T18:31:20.000Z"
+  },
+  {
+   "id": "n2",
+   "a3": "ISR",
+   "pais": "Israel",
+   "cat": "crise",
+   "rel": 5,
+   "titulo": "Netanyahu acusa interferência estrangeira e tenta deslegitimar resultado",
+   "resumo": "Netanyahu alega, sem provas, que partidos árabes tiveram apoio externo do Catar para 'roubar' a eleição; Catar nega acusações e Shin Bet pede cautela.",
+   "fontes": [
+    {
+     "nome": "Al-Monitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/netanyahu-risk-losing-power-steps-attacks-israels-arab-parties",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:48:23.000Z"
+    },
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahus-likud-claims-palestinians-stole-elections-qatar-denies",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:06:45.000Z"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/israels-anti-qatar-campaign-bleeds-into-elections?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:35:53.000Z"
+    },
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/video/20261029-comit%C3%A9-electoral-de-israel-pide-investigar-injerencia-extranjera-en-apoyo-de-un-partido-palestino",
+     "lang": "ES",
+     "publicado": "2026-10-29T15:42:01.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/ministro-extremista-de-israel-pede-prisao-de-lideres-de-partidos-arabes-e-os-acusa-de-fraude-em-votacao-recorde.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T11:59:00.000Z"
+    },
+    {
+     "nome": "ABC Australia",
+     "url": "https://www.abc.net.au/news/2026-10-29/israel-election-foreign-interference-allegations-investigation/107325606",
+     "lang": "EN",
+     "publicado": "2026-10-29T11:25:33.000Z"
+    }
+   ],
+   "lat": 31.778,
+   "lng": 35.207,
+   "publicado": "2026-10-29T14:48:23.000Z",
+   "atualizado": "2026-10-29T15:42:01.000Z"
+  },
+  {
+   "id": "n3",
+   "a3": "ISR",
+   "pais": "Israel",
+   "cat": "eleicao",
+   "rel": 4,
+   "titulo": "Eisenkot e Bennett negociam formação de governo alternativo em Israel",
+   "resumo": "Líderes da oposição se reuniram para discutir esforços conjuntos de formar governo, enquanto partidos árabes se tornam decisivos na composição da Knesset.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/mundo/2026/10/29/en-vivo-elecciones-parlamentarias-en-israel/",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:43:34.000Z"
+    },
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/palestinian-president-says-hopes-peace-talks-new-israeli-government",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:32:03.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/video/world/middleeast/100000011242127/how-israels-election-could-end.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:01:22.000Z"
+    },
+    {
+     "nome": "Africanews",
+     "url": "http://www.africanews.com/2026/10/29/israel-protesters-demand-arab-jewish-unity-government-after-election/",
+     "lang": "EN",
+     "publicado": "2026-10-29T11:37:04.000Z"
+    }
+   ],
+   "lat": 31.778,
+   "lng": 35.207,
+   "publicado": "2026-10-29T15:32:03.000Z",
+   "atualizado": "2026-10-29T17:43:34.000Z"
+  },
+  {
+   "id": "n4",
+   "a3": "VEN",
+   "pais": "Venezuela",
+   "cat": "crise",
+   "rel": 5,
+   "titulo": "Machado diz que transição democrática na Venezuela é 'irreversível'",
+   "resumo": "Três dias após retornar a Caracas, a líder opositora e premiê Nobel da Paz agradeceu aos EUA e afirmou que o processo de mudança no país não tem volta.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/maria-corina-machado-la-transicion-democratica-en-venezuela-es-irreversible/",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:31:52.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/america/2026-10-29/en-vivo-siga-el-discurso-de-maria-corina-machado-tras-su-regreso-a-venezuela.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T16:05:26.000Z"
+    },
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261029-mar%C3%ADa-corina-machado-anuncia-que-llevar%C3%A1-a-venezuela-las-actas-electorales-de-2024-y-reclama-avanzar-hacia-nuevas-elecciones",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:53:32.000Z"
+    }
+   ],
+   "lat": 10.503,
+   "lng": -66.919,
+   "publicado": "2026-10-29T16:05:26.000Z",
+   "atualizado": "2026-10-29T18:53:32.000Z"
+  },
+  {
+   "id": "n5",
+   "a3": "VEN",
+   "pais": "Venezuela",
+   "cat": "crise",
+   "rel": 4,
+   "titulo": "Delcy Rodríguez promete eleições e venda de ativos estatais a privados",
+   "resumo": "A presidente interina da Venezuela se apresentou como garantia de transição democrática, prometendo eleições com autoridade eleitoral renovada e privatizações.",
+   "fontes": [
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/america/2026-10-29/delcy-rodriguez-se-erige-como-unica-garante-de-un-cambio-democratico-en-venezuela-y-promete-elecciones-con-una-autoridad-renovada.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T15:49:30.000Z"
+    },
+    {
+     "nome": "G1 Mundo",
+     "url": "https://g1.globo.com/mundo/noticia/2026/10/29/bens-detidos-pelo-governo-serao-oferecidos-ao-setor-privado-e-aos-antigos-proprietarios-diz-presidente-da-venezuela.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T15:25:07.000Z"
+    },
+    {
+     "nome": "Estadão",
+     "url": "https://www.estadao.com.br/internacional/venezuela-oferecera-ativos-estatais-setor-privado-antigos-proprietarios-diz-delcy-rodriguez-npr/",
+     "lang": "PT",
+     "publicado": "2026-10-29T18:29:38.000Z"
+    },
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/venezuela-oferecera-ativos-estatais-ao-setor-privado-afirma-delcy/",
+     "lang": "PT",
+     "publicado": "2026-10-29T17:45:51.000Z"
+    },
+    {
+     "nome": "MercoPress",
+     "url": "https://en.mercopress.com/2026/10/29/i-am-the-right-person-delcy-rodriguez-casts-herself-as-guarantor-of-venezuela-s-transition?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:42:00.000Z"
+    }
+   ],
+   "lat": 10.503,
+   "lng": -66.919,
+   "publicado": "2026-10-29T15:25:07.000Z",
+   "atualizado": "2026-10-29T18:29:38.000Z"
+  },
+  {
+   "id": "n47",
+   "a3": "VEN",
+   "pais": "Venezuela",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Juiz do julgamento de Maduro nos EUA morre antes do início do processo",
+   "resumo": "A morte do juiz federal Alvin Hellerstein, de 92 anos, deixa incerto quem conduzirá o julgamento de Nicolás Maduro, previsto para começar em junho.",
+   "fontes": [
+    {
+     "nome": "El País",
+     "url": "https://english.elpais.com/usa/2026-10-29/federal-judge-in-charge-of-nicolas-maduros-us-trial-dies.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T09:28:53.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/morre-aos-92-anos-juiz-que-conduzia-caso-de-maduro-em-ny.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-28T19:17:00.000Z"
+    },
+    {
+     "nome": "G1 Mundo",
+     "url": "https://g1.globo.com/mundo/noticia/2026/10/28/morre-juiz-que-julgava-caso-de-nicolas-maduro-nos-eua-ao-92-anos.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-28T19:00:20.000Z"
+    }
+   ],
+   "lat": 10.503,
+   "lng": -66.919,
+   "publicado": "2026-10-29T09:28:53.000Z",
+   "atualizado": "2026-10-29T09:28:53.000Z"
+  },
+  {
+   "id": "n7",
+   "a3": "BRA",
+   "pais": "Brasil",
+   "cat": "crise",
+   "rel": 5,
+   "titulo": "Governo Trump ajudou fuga de Flávio e WSJ acusa Lula de perseguição",
+   "resumo": "O Wall Street Journal acusou o governo Lula de perseguir politicamente Flávio Bolsonaro; Casa Branca pediu que ele retirasse de carta pública menção a 'presidente eleito'.",
+   "fontes": [
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:29:57.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/wall-street-journal-acusa-governo-lula-de-perseguicao-politica-a-flavio-bolsonaro.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T15:07:00.000Z"
+    },
+    {
+     "nome": "G1 Política",
+     "url": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/10/29/eua-pediram-a-flavio-bolsonaro-que-retirasse-de-carta-trecho-em-que-se-dizia-presidente-eleito.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T15:27:37.000Z"
+    },
+    {
+     "nome": "G1 Mundo",
+     "url": "https://g1.globo.com/mundo/noticia/2026/10/29/trump-diz-que-falara-com-lula-e-volta-a-criticar-eleicoes.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T14:48:22.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/america/2026-10-29/la-huida-de-flavio-bolsonaro-desnuda-una-alineacion-ideologica-con-trump-que-prevalece-sobre-el-derecho-internacional-en-latinoamerica.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T09:30:00.000Z"
+    },
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/trump-y-sus-asesores-ayudaron-a-bolsonaro-a-huir-a-eeuu-segun-el-nyt/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:45:28.000Z"
+    }
+   ],
+   "lat": -15.781,
+   "lng": -47.918,
+   "publicado": "2026-10-29T14:48:22.000Z",
+   "atualizado": "2026-10-29T18:45:28.000Z"
+  },
+  {
+   "id": "n6",
+   "a3": "BRA",
+   "pais": "Brasil",
+   "cat": "crise",
+   "rel": 5,
+   "titulo": "Flávio Bolsonaro foge para os EUA e se autoproclama 'líder do Brasil'",
+   "resumo": "Derrotado na eleição presidencial, o senador viajou via Argentina a Miami após a polícia cancelar seu passaporte, e diz que liderará a oposição a partir dos EUA.",
+   "fontes": [
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:58:28.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/28/world/americas/flavio-bolsonaro-us-miami-brazil-trump.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:06:48.000Z"
+    },
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/curiosidades/criada-em-1925-com-estilo-inspirado-nas-mil-e-uma-noites-a-rota-secreta-usada-por-flavio-bolsonaro-para-chegar-aos-eua/",
+     "lang": "PT",
+     "publicado": "2026-10-29T17:22:35.000Z"
+    },
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/video/20261029-de-presidente-electo-a-l%C3%ADder-de-brasil-las-publicaciones-de-bolsonaro-tras-derrota-electoral",
+     "lang": "ES",
+     "publicado": "2026-10-29T13:56:10.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://english.elpais.com/usa/2026-10-29/brazilians-in-miami-torn-over-flavio-bolsonaros-presence-i-feel-helpless.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T13:23:05.000Z"
+    }
+   ],
+   "lat": -15.781,
+   "lng": -47.918,
+   "publicado": "2026-10-29T14:58:28.000Z",
+   "atualizado": "2026-10-29T17:22:35.000Z"
+  },
+  {
+   "id": "n58",
+   "a3": "BRA",
+   "pais": "Brasil",
+   "cat": "eleicao",
+   "rel": 4,
+   "titulo": "Lula é reeleito no 2º turno e reverte placar em regiões metropolitanas",
+   "resumo": "Reeleito presidente, Lula virou o resultado do 1º turno em três das 78 regiões metropolitanas e cresceu mais de 30% em outras seis. Partidos de direita reconheceram o resultado.",
+   "fontes": [
+    {
+     "nome": "G1 Política",
+     "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/29/desempenho-lual-flavio-bolsonaro-regioes-metropolitanas.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T18:36:31.000Z"
+    },
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/la-derecha-brasilena-respalda-el-resultado-electoral-y-se-distancia-de-flavio-bolsonaro/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:46:42.000Z"
+    }
+   ],
+   "lat": -15.781,
+   "lng": -47.918,
+   "publicado": "2026-10-29T18:36:31.000Z",
+   "atualizado": "2026-10-29T18:46:42.000Z"
+  },
+  {
+   "id": "n9",
+   "a3": "USA",
+   "pais": "Estados Unidos",
+   "cat": "eleicao",
+   "rel": 4,
+   "titulo": "Trump e Obama disputam palanque nos EUA a uma semana das eleições",
+   "resumo": "Com o custo de vida como principal preocupação dos eleitores, republicanos e democratas intensificam campanha para as eleições de meio de mandato de 3 de novembro.",
+   "fontes": [
+    {
+     "nome": "France 24",
+     "url": "https://www.france24.com/en/video/20261029-us-midterms-donald-trump-and-barack-obama-make-closing-pitches",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:57:48.000Z"
+    },
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/programas/revista-de-prensa/20261029-en-estados-unidos-los-republicanos-tienen-un-problema-con-epstein-vox",
+     "lang": "ES",
+     "publicado": "2026-10-29T14:06:03.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/us/2026-10-29/obama-de-campana-en-georgia-trump-no-se-ofende-si-le-llamas-corrupto-pero-si-por-una-broma-sobre-un-restaurante.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T03:32:17.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/colunas/lucia-guimaraes/2026/10/eleicao-nos-eua-deve-devolver-controle-da-camara-aos-democratas.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T02:00:00.000Z"
+    }
+   ],
+   "lat": 38.901,
+   "lng": -77.011,
+   "publicado": "2026-10-29T14:48:42.000Z",
+   "atualizado": "2026-10-29T16:13:14.000Z"
+  },
+  {
+   "id": "n50",
+   "a3": "USA",
+   "pais": "Estados Unidos",
+   "cat": "crise",
+   "rel": 4,
+   "titulo": "Vazamento expõe dados de mais de 41 mil agentes de imigração dos EUA",
+   "resumo": "Um hacker divulgou informações de agentes do Department of Homeland Security, levantando preocupações de segurança em meio à política migratória do governo Trump.",
+   "fontes": [
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T01:30:43.000Z"
+    }
+   ],
+   "lat": 38.901,
+   "lng": -77.011,
+   "publicado": "2026-10-29T01:30:43.000Z",
+   "atualizado": "2026-10-29T01:30:43.000Z"
+  },
+  {
+   "id": "n10",
+   "a3": "USA",
+   "pais": "Estados Unidos",
+   "cat": "eleicao",
+   "rel": 3,
+   "titulo": "Governador do Alasca investiga suposta interferência em corrida ao Senado",
+   "resumo": "Após reportagem do NYT sobre possível candidato recrutado para prejudicar campanha democrata, governador republicano do Alasca ordenou apuração.",
+   "fontes": [
+    {
+     "nome": "Guardian",
+     "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:43:25.000Z"
+    },
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T16:26:02.000Z"
+    },
+    {
+     "nome": "G1 Mundo",
+     "url": "https://g1.globo.com/mundo/noticia/2026/10/28/democratas-bolaram-plano-secreto-para-confundir-eleitores-do-alasca-diz-jornal-trump-reage-nas-redes.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-28T19:50:53.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/us/2026-10-29/las-maniobras-democratas-en-alaska-dan-municion-a-trump-para-no-acatar-el-resultado-de-las-elecciones.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:23:27.000Z"
+    }
+   ],
+   "lat": 38.901,
+   "lng": -77.011,
+   "publicado": "2026-10-29T16:26:02.000Z",
+   "atualizado": "2026-10-29T18:23:27.000Z"
+  },
+  {
+   "id": "n12",
+   "a3": "UKR",
+   "pais": "Ucrânia",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Trégua segue em Oleshky, mas ataque russo a estação de trem mata 13",
+   "resumo": "Enquanto o cessar-fogo localizado em Oleshky completa três dias, drones russos atingiram uma estação ferroviária em Dnipró, deixando ao menos 13 mortos.",
+   "fontes": [
+    {
+     "nome": "Meduza",
+     "url": "https://meduza.io/en/feature/2026/10/29/if-this-works-it-will-be-the-first-real-ceasefire-across-a-large-stretch-of-the-front-russia-and-ukraine-maintain-truce-in-occupied-oleshky-for-more-than-two-days",
+     "lang": "EN",
+     "publicado": "2026-10-29T16:05:56.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/internacional/2026-10-29/varios-muertos-en-un-ataque-ruso-contra-una-estacion-de-tren-de-la-ciudad-ucrania-de-dnipro.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T15:08:19.000Z"
+    },
+    {
+     "nome": "Kyiv Independent",
+     "url": "https://kyivindependent.com/while-oleshky-ceasefire-holds-for-third-day-russian-attacks-kill-1-injure-at-least-22-across-ukraine/",
+     "lang": "EN",
+     "publicado": "2026-10-29T16:04:09.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/drone-mata-13-em-estacao-de-trem-na-ucrania-kiev-faz-maior-ataque-a-russia.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T12:01:00.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/europe/ukraine-kherson-respite.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:08:32.000Z"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/aje-onl-nf_russian-drone-strike-at-dnipro-train-platform-291026?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:03:21.000Z"
+    }
+   ],
+   "lat": 50.435,
+   "lng": 30.515,
+   "publicado": "2026-10-29T15:08:19.000Z",
+   "atualizado": "2026-10-29T18:03:21.000Z"
+  },
+  {
+   "id": "n45",
+   "a3": "UKR",
+   "pais": "Ucrânia",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Ucrânia lança ataque com mais de 600 drones contra Moscou",
+   "resumo": "Kiev promoveu um dos maiores ataques de drones contra a região de Moscou, forçando restrições em aeroportos; Kremlin diz que a guerra 'deve continuar'.",
+   "fontes": [
+    {
+     "nome": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/29/more-than-600-drones-flew-toward-moscow-mayor-says-as-three-airports-restricted-flights",
+     "lang": "EN",
+     "publicado": "2026-10-29T08:13:13.000Z"
+    },
+    {
+     "nome": "Kyiv Independent",
+     "url": "https://kyivindependent.com/russia-says-war-must-continue-after-ukraines-massive-drone-attack-on-moscow/",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:09:02.000Z"
+    }
+   ],
+   "lat": 50.435,
+   "lng": 30.515,
+   "publicado": "2026-10-29T08:13:13.000Z",
+   "atualizado": "2026-10-29T14:09:02.000Z"
+  },
+  {
+   "id": "n51",
+   "a3": "UKR",
+   "pais": "Ucrânia",
+   "cat": "diplomacia",
+   "rel": 4,
+   "titulo": "EUA, Rússia e Ucrânia marcam negociações de paz em Abu Dhabi após 4 de novembro",
+   "resumo": "Autoridades russas confirmam data das conversas de paz; Washington também discute alívio de sanções a fundo de investimento russo, parte das negociações.",
+   "fontes": [
+    {
+     "nome": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/29/kremlin-says-u-s-russia-ukraine-peace-talks-will-take-place-in-abu-dhabi-after-november-4-depending-on-battlefield-conditions",
+     "lang": "EN",
+     "publicado": "2026-10-28T22:26:41.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/28/us/politics/russia-sanctions-relief-fund-trump.html",
+     "lang": "EN",
+     "publicado": "2026-10-28T23:37:41.000Z"
+    }
+   ],
+   "lat": 50.435,
+   "lng": 30.515,
+   "publicado": "2026-10-28T22:26:41.000Z",
+   "atualizado": "2026-10-28T23:37:41.000Z"
+  },
+  {
+   "id": "n15",
+   "a3": "CHN",
+   "pais": "China",
+   "cat": "crise",
+   "rel": 4,
+   "titulo": "Xi Jinping promove maior purga do partido e exige mais disciplina",
+   "resumo": "Em sessão do Partido Comunista, a liderança chinesa reforçou controle interno e promoveu um general ao Politburo, um ano antes do esperado quarto mandato de Xi.",
+   "fontes": [
+    {
+     "nome": "BBC Mundo",
+     "url": "https://www.bbc.com/mundo/articles/cj62y4eq3d26o?at_medium=RSS&at_campaign=rss",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:19:58.000Z"
+    },
+    {
+     "nome": "DW",
+     "url": "https://www.dw.com/en/china-leaders-demand-more-loyalty-and-more-initiative/a-79799138?maca=en-rss-en-world-4025-rdf",
+     "lang": "EN",
+     "publicado": "2026-10-29T16:16:00.000Z"
+    },
+    {
+     "nome": "NPR",
+     "url": "https://www.npr.org/2026/10/29/g-s1-150645/china-elevates-a-military-general-to-the-politburo-and-seeks-to-strengthen-party-discipline",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:53:46.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/asia/china-communist-party-purges.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T12:49:05.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/internacional/2026-10-29/xi-refuerza-la-disciplina-en-el-partido-comunista-de-china-y-ratifica-la-purga-de-33-altos-cargos.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T11:54:17.000Z"
+    },
+    {
+     "nome": "SCMP",
+     "url": "https://www.scmp.com/news/china/military/article/3372591/china-promotes-general-zhang-shengmin-politburo",
+     "lang": "EN",
+     "publicado": "2026-10-29T09:48:24.000Z"
+    }
+   ],
+   "lat": 39.931,
+   "lng": 116.386,
+   "publicado": "2026-10-29T15:53:46.000Z",
+   "atualizado": "2026-10-29T17:19:58.000Z"
+  },
+  {
+   "id": "n16",
+   "a3": "CHN",
+   "pais": "China",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "EUA proíbem laboratórios chineses de testar eletrônicos antes de cúpula",
+   "resumo": "A medida ocorre semanas antes de encontro entre Trump e Xi Jinping, em mais um capítulo de tensões comerciais e tecnológicas entre as duas potências.",
+   "fontes": [
+    {
+     "nome": "SCMP",
+     "url": "https://www.scmp.com/news/us/article/3372632/us-bans-chinese-labs-testing-electronics-ahead-trump-xi-meeting",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:39:38.000Z"
+    }
+   ],
+   "lat": 39.931,
+   "lng": 116.386,
+   "publicado": "2026-10-29T15:39:38.000Z",
+   "atualizado": "2026-10-29T15:39:38.000Z"
+  },
+  {
+   "id": "n39",
+   "a3": "CHN",
+   "pais": "China",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "China ameaça retaliar novas salvaguardas comerciais da União Europeia",
+   "resumo": "Pequim reitera oposição a possíveis barreiras europeias contra exportações chinesas, alegando violação de regras da OMC, enquanto a Alemanha evita falar em desacoplamento.",
+   "fontes": [
+    {
+     "nome": "SCMP",
+     "url": "https://www.scmp.com/economy/china-economy/article/3372612/china-slams-eus-potential-new-trade-safeguards-says-they-may-violate-wto-rules",
+     "lang": "EN",
+     "publicado": "2026-10-29T12:47:50.000Z"
+    }
+   ],
+   "lat": 39.931,
+   "lng": 116.386,
+   "publicado": "2026-10-29T07:48:43.000Z",
+   "atualizado": "2026-10-29T12:47:50.000Z"
+  },
+  {
+   "id": "n17",
+   "a3": "RWA",
+   "pais": "Ruanda",
+   "cat": "diplomacia",
+   "rel": 4,
+   "titulo": "EUA impõem novas sanções a Ruanda por apoio a rebeldes na RD Congo",
+   "resumo": "O Tesouro americano acusou Ruanda de minar acordo de paz mediado pelos EUA, ao apoiar grupo rebelde no leste da RD Congo, conflito que Trump declarara encerrado.",
+   "fontes": [
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/africa/rwanda-sanctions-m23-congo.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:13:48.000Z"
+    },
+    {
+     "nome": "Africanews",
+     "url": "http://www.africanews.com/2026/10/29/drc-us-sanctions-on-rwanda-draw-mixed-reactions-in-goma/",
+     "lang": "EN",
+     "publicado": "2026-10-29T16:44:15.000Z"
+    },
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T11:25:16.000Z"
+    }
+   ],
+   "lat": -1.952,
+   "lng": 30.059,
+   "publicado": "2026-10-29T16:44:15.000Z",
+   "atualizado": "2026-10-29T17:13:48.000Z"
+  },
+  {
+   "id": "n18",
+   "a3": "PRK",
+   "pais": "Coreia do Norte",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Coreia do Norte lança cerca de dez mísseis balísticos em direção ao mar",
+   "resumo": "Segundo autoridades sul-coreanas, os disparos partiram da costa leste norte-coreana, em novo gesto de tensão militar na península coreana.",
+   "fontes": [
+    {
+     "nome": "G1 Mundo",
+     "url": "https://g1.globo.com/mundo/noticia/2026/10/29/coreia-do-norte-lanca-cerca-de-10-misseis-balisticos-em-direcao-ao-mar-na-costa-leste-afirma-seul.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T16:10:09.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/internacional/2026-10-29/corea-del-norte-lanza-mas-de-diez-misiles-balisticos-en-plena-escalada-de-tension-con-corea-del-sur.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T13:54:06.000Z"
+    },
+    {
+     "nome": "SCMP",
+     "url": "https://www.scmp.com/news/asia/east-asia/article/3372537/north-korea-fires-missile-barrage-days-after-rejecting-souths-border-talks",
+     "lang": "EN",
+     "publicado": "2026-10-29T05:40:35.000Z"
+    },
+    {
+     "nome": "Estadão",
+     "url": "https://www.estadao.com.br/internacional/coreia-do-norte-lanca-uma-duzia-de-misseis-balisticos-em-direcao-ao-mar-da-costa-leste-npr/",
+     "lang": "PT",
+     "publicado": "2026-10-29T17:45:07.000Z"
+    }
+   ],
+   "lat": 39.021,
+   "lng": 125.753,
+   "publicado": "2026-10-29T16:10:09.000Z",
+   "atualizado": "2026-10-29T17:45:07.000Z"
+  },
+  {
+   "id": "n36",
+   "a3": "PRK",
+   "pais": "Coreia do Norte",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "Relatório aponta exploração de trabalhadores norte-coreanos na Rússia",
+   "resumo": "Corretores russos anunciam mão de obra norte-coreana a empresas como parte de programa de trabalho forçado que financiaria o programa de mísseis de Pyongyang.",
+   "fontes": [
+    {
+     "nome": "ABC Australia",
+     "url": "https://www.abc.net.au/news/2026-10-29/north-korea-russia-labour-funding-missile-program/107318780",
+     "lang": "EN",
+     "publicado": "2026-10-29T06:43:55.000Z"
+    },
+    {
+     "nome": "CNA",
+     "url": "https://www.channelnewsasia.com/east-asia/moscow-pyongyang-workers-factories-6501861",
+     "lang": "EN",
+     "publicado": "2026-10-29T06:03:37.000Z"
+    },
+    {
+     "nome": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/location/east-asia/north-korea/russia-imports-north-korean-workers-disguised-as-students-report-shows",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:12:34.892Z"
+    }
+   ],
+   "lat": 39.021,
+   "lng": 125.753,
+   "publicado": "2026-10-29T06:03:37.000Z",
+   "atualizado": "2026-10-29T18:12:34.892Z"
+  },
+  {
+   "id": "n19",
+   "a3": "YEM",
+   "pais": "Iêmen",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Hospitais no Iêmen ficam sobrecarregados com escalada dos combates",
+   "resumo": "Unidades de saúde em Taiz relatam dificuldade para atender feridos à medida que os confrontos se intensificam no país, já devastado por anos de guerra civil.",
+   "fontes": [
+    {
+     "nome": "Al-Monitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/yemens-hospitals-buckle-fighting-escalates",
+     "lang": "EN",
+     "publicado": "2026-10-29T16:46:33.000Z"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/fighting-rages-near-yemens-taiz-as-un-urges-humanitarian-access?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T12:46:29.000Z"
+    }
+   ],
+   "lat": 15.357,
+   "lng": 44.205,
+   "publicado": "2026-10-29T16:46:33.000Z",
+   "atualizado": "2026-10-29T16:46:33.000Z"
+  },
+  {
+   "id": "n37",
+   "a3": "YEM",
+   "pais": "Iêmen",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Ataque saudita mata 12 pessoas em área residencial de Taiz, dizem houthis",
+   "resumo": "Houthis acusam a Arábia Saudita de bombardear bairro de Taiz, em meio a combates que já deslocaram mais de 280 mil pessoas desde agosto, segundo a ONU.",
+   "fontes": [
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-saudi-strike-kills-12-yemeni-residential-area",
+     "lang": "EN",
+     "publicado": "2026-10-29T13:21:23.000Z"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/fighting-rages-near-yemens-taiz-as-un-urges-humanitarian-access?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T12:46:29.000Z"
+    }
+   ],
+   "lat": 15.357,
+   "lng": 44.205,
+   "publicado": "2026-10-29T12:46:29.000Z",
+   "atualizado": "2026-10-29T13:21:23.000Z"
+  },
+  {
+   "id": "n20",
+   "a3": "YEM",
+   "pais": "Iêmen",
+   "cat": "diplomacia",
+   "rel": 2,
+   "titulo": "Líderes tribais do Iêmen apresentam princípios para aliviar guerra na ONU",
+   "resumo": "Em encontro nas Nações Unidas, lideranças tribais iemenitas lançaram proposta para reduzir o impacto humanitário do conflito no país.",
+   "fontes": [
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-tribal-leaders-present-set-principles-ease-wars-humanitarian",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:00:17.000Z"
+    }
+   ],
+   "lat": 15.357,
+   "lng": 44.205,
+   "publicado": "2026-10-29T17:00:17.000Z",
+   "atualizado": "2026-10-29T17:00:17.000Z"
+  },
+  {
+   "id": "n21",
+   "a3": "PAK",
+   "pais": "Paquistão",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Ativista paquistanesa e marido são condenados a 10 anos de prisão",
+   "resumo": "Imaan Mazari e seu marido afirmam serem 'prisioneiros de consciência' perseguidos pelas autoridades apoiadas pelos militares no Paquistão.",
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/pakistan-rights-activist-imaan-mazari-and-husband-jailed-for-10-years?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:28:18.000Z"
+    }
+   ],
+   "lat": 33.702,
+   "lng": 73.165,
+   "publicado": "2026-10-29T17:28:18.000Z",
+   "atualizado": "2026-10-29T17:28:18.000Z"
+  },
+  {
+   "id": "n22",
+   "a3": "HTI",
+   "pais": "Haiti",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Haiti adia eleições em meio a violência descontrolada de gangues",
+   "resumo": "O país segue sem conseguir organizar pleito para escolher novo presidente, à medida que a violência de gangues compromete a capacidade do Estado de agir.",
+   "fontes": [
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/americas/haiti-elections-postponed-violence.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:29:56.000Z"
+    },
+    {
+     "nome": "RFI Brasil",
+     "url": "https://www.rfi.fr/br/am%C3%A9ricas/20261029-em-meio-%C3%A0-grave-crise-haiti-adia-elei%C3%A7%C3%B5es-presidenciais-e-legislativas-para-julho-de-2027",
+     "lang": "PT",
+     "publicado": "2026-10-29T14:20:10.000Z"
+    },
+    {
+     "nome": "Estadão",
+     "url": "https://www.estadao.com.br/internacional/haiti-adia-eleicoes-para-2027-em-meio-a-expansao-de-gangues-e-reforco-militar-de-el-salvador-npr/",
+     "lang": "PT",
+     "publicado": "2026-10-29T10:52:15.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/conselho-eleitoral-do-haiti-adia-eleicao-presidencial-para-2027.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T05:04:00.000Z"
+    },
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/the-new-york-times/2026/10/29/haiti-pospone-sus-esperadas-elecciones-en-medio-de-una-violencia-implacable/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:30:39.000Z"
+    }
+   ],
+   "lat": 18.543,
+   "lng": -72.338,
+   "publicado": "2026-10-29T15:29:56.000Z",
+   "atualizado": "2026-10-29T18:30:39.000Z"
+  },
+  {
+   "id": "n38",
+   "a3": "HTI",
+   "pais": "Haiti",
+   "cat": "conflito",
+   "rel": 3,
+   "titulo": "El Salvador envia 2 mil soldados ao Haiti para resgatar militares sequestrados",
+   "resumo": "Tropas salvadorenhas tentam recuperar quatro militares desaparecidos em emboscada de gangues perto de Porto Príncipe, aprofundando intervenção estrangeira no país.",
+   "fontes": [
+    {
+     "nome": "BBC Mundo",
+     "url": "https://www.bbc.com/mundo/articles/cm20wdy1w5p8o?at_medium=RSS&at_campaign=rss",
+     "lang": "ES",
+     "publicado": "2026-10-29T12:00:49.000Z"
+    },
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T06:24:56.000Z"
+    },
+    {
+     "nome": "DW Brasil",
+     "url": "https://www.dw.com/pt-br/por-que-el-salvador-está-enviando-militares-para-o-haiti/a-79798573?maca=bra-rss-br-all-1030-rdf",
+     "lang": "PT",
+     "publicado": "2026-10-29T16:58:00.000Z"
+    }
+   ],
+   "lat": 18.543,
+   "lng": -72.338,
+   "publicado": "2026-10-29T06:24:56.000Z",
+   "atualizado": "2026-10-29T16:58:00.000Z"
+  },
+  {
+   "id": "n23",
+   "a3": "ITA",
+   "pais": "Itália",
+   "cat": "conflito",
+   "rel": 3,
+   "titulo": "Polícia italiana prende jovem suspeito de planejar atentados contra mesquitas e sinagogas",
+   "resumo": "O rapaz de 22 anos foi detido em Milão após autoridades identificarem plano de ataques a locais de culto religioso.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/detenido-en-italia-un-joven-de-22-anos-acusado-de-planear-ataques-contra-mezquitas-y-sinagogas/",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:31:22.000Z"
+    }
+   ],
+   "lat": 41.898,
+   "lng": 12.481,
+   "publicado": "2026-10-29T17:31:22.000Z",
+   "atualizado": "2026-10-29T17:31:22.000Z"
+  },
+  {
+   "id": "n49",
+   "a3": "FRA",
+   "pais": "França",
+   "cat": "votacao",
+   "rel": 3,
+   "titulo": "Senado francês aprova lei que permite cobrar manifestantes por vandalismo",
+   "resumo": "O Senado da França aprovou o projeto 'casseurs-payeurs', que responsabiliza financeiramente manifestantes por danos causados em protestos.",
+   "fontes": [
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/senado-frances-aprova-projeto-que-permite-cobrar-manifestantes-por-vandalismo.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-28T23:59:00.000Z"
+    },
+    {
+     "nome": "France 24",
+     "url": "https://www.france24.com/en/france/20261029-deeply-regressive-how-the-french-government-plans-to-make-protesters-pay-for-riots-and-looting",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:15:38.000Z"
+    }
+   ],
+   "lat": 48.869,
+   "lng": 2.331,
+   "publicado": "2026-10-28T23:59:00.000Z",
+   "atualizado": "2026-10-29T18:15:38.000Z"
+  },
+  {
+   "id": "n25",
+   "a3": "FRA",
+   "pais": "França",
+   "cat": "protesto",
+   "rel": 3,
+   "titulo": "Governo francês alerta para risco elevado de distúrbios no fim de semana",
+   "resumo": "Autoridades temem nova onda de protestos contra o custo de vida no sábado, levando o governo a avaliar antecipar aumento do salário mínimo.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/el-gobierno-frances-alerta-del-elevado-riesgo-para-el-orden-publico-del-proximo-sabado/",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:32:09.000Z"
+    },
+    {
+     "nome": "France 24",
+     "url": "https://www.france24.com/en/video/20261029-minimum-wage-increase-could-come-early-as-france-braces-for-protests",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:47:48.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/europe/france-marseille-macron-protests.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T09:03:02.000Z"
+    }
+   ],
+   "lat": 48.869,
+   "lng": 2.331,
+   "publicado": "2026-10-29T14:47:48.000Z",
+   "atualizado": "2026-10-29T17:32:09.000Z"
+  },
+  {
+   "id": "n24",
+   "a3": "FRA",
+   "pais": "França",
+   "cat": "conflito",
+   "rel": 3,
+   "titulo": "Suspeito de ataque em Trappes, na França, admite motivação racista",
+   "resumo": "O atirador que matou uma pessoa e feriu outras cinco em 23 de outubro disse ter mirado especificamente muçulmanos e africanos, segundo promotor antiterrorismo.",
+   "fontes": [
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/video/20261029-directo-par%C3%ADs-y-el-atacante-del-tiroteo-en-trappes-admite-que-su-acto-fue-racista",
+     "lang": "ES",
+     "publicado": "2026-10-29T15:40:52.000Z"
+    },
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/internacional/2026-10-29/el-atacante-de-trappes-admite-que-disparo-contra-musulmanes-y-africanos-por-racismo.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T15:09:33.000Z"
+    },
+    {
+     "nome": "RFI Brasil",
+     "url": "https://www.rfi.fr/br/fran%C3%A7a/20261029-homem-preso-ap%C3%B3s-ataque-racista-na-fran%C3%A7a-admite-ter-visado-pessoas-de-origem-mu%C3%A7ulmana-e-africana",
+     "lang": "PT",
+     "publicado": "2026-10-29T15:01:49.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/europe/france-shootings-suspect.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:05:07.000Z"
+    },
+    {
+     "nome": "France 24",
+     "url": "https://www.france24.com/en/video/20261029-very-disturbing-details-trappes-shooting-suspect-admits-targeting-victims-by-race-religion",
+     "lang": "EN",
+     "publicado": "2026-10-29T13:10:37.000Z"
+    }
+   ],
+   "lat": 48.869,
+   "lng": 2.331,
+   "publicado": "2026-10-29T15:01:49.000Z",
+   "atualizado": "2026-10-29T15:40:52.000Z"
+  },
+  {
+   "id": "n26",
+   "a3": "PRT",
+   "pais": "Portugal",
+   "cat": "protesto",
+   "rel": 2,
+   "titulo": "Jovens liderados por crise da moradia mobilizam protestos em Portugal",
+   "resumo": "Manifestações contra o alto custo da habitação e do custo de vida ganham força no país, inseridas em onda mais ampla de contestação social.",
+   "fontes": [
+    {
+     "nome": "RFI Brasil",
+     "url": "https://www.rfi.fr/br/europa/20261029-crise-da-moradia-e-custo-de-vida-em-portugal-impulsionam-mobiliza%C3%A7%C3%A3o-liderada-por-jovens",
+     "lang": "PT",
+     "publicado": "2026-10-29T15:30:45.000Z"
+    }
+   ],
+   "lat": 38.725,
+   "lng": -9.147,
+   "publicado": "2026-10-29T15:30:45.000Z",
+   "atualizado": "2026-10-29T15:30:45.000Z"
+  },
+  {
+   "id": "n27",
+   "a3": "CAN",
+   "pais": "Canadá",
+   "cat": "diplomacia",
+   "rel": 4,
+   "titulo": "Von der Leyen propõe parceria 'sem adesão' entre UE e Canadá",
+   "resumo": "Em cúpula em Montreal, a presidente da Comissão Europeia defendeu status de 'membro associado' para o Canadá, apesar de divergências entre capitais europeias.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/von-der-leyen-admite-que-canada-no-puede-entrar-en-la-ue-pero-pide-una-asociacion-sin-adhesion/",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:46:12.000Z"
+    },
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:02:59.000Z"
+    },
+    {
+     "nome": "Politico Europe",
+     "url": "https://www.politico.eu/article/ursula-von-der-leyen-associate-member-status-canada-eu-capitals-objections/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:18:43.000Z"
+    },
+    {
+     "nome": "Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+     "lang": "EN",
+     "publicado": "2026-10-28T21:27:33.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/disputa-na-ue-muda-nome-de-parceria-com-canada-mas-aproximacao-continua.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T18:27:00.000Z"
+    }
+   ],
+   "lat": 45.419,
+   "lng": -75.702,
+   "publicado": "2026-10-29T15:18:43.000Z",
+   "atualizado": "2026-10-29T18:27:00.000Z"
+  },
+  {
+   "id": "n28",
+   "a3": "JPN",
+   "pais": "Japão",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "EUA e Japão acertam fábrica conjunta de produção de míssil",
+   "resumo": "O acordo é a mais recente ação dos aliados em resposta à crescente assertividade militar da China na Ásia.",
+   "fontes": [
+    {
+     "nome": "NPR",
+     "url": "https://www.npr.org/2026/10/29/g-s1-150666/us-and-japan-agree-to-establish-a-japanese-facility-for-joint-missile-production",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:58:27.000Z"
+    },
+    {
+     "nome": "SCMP",
+     "url": "https://www.scmp.com/news/china/military/article/3372564/japan-and-us-strike-deal-missile-assembly-tokyo-expands-long-range-arsenal",
+     "lang": "EN",
+     "publicado": "2026-10-29T07:53:28.000Z"
+    },
+    {
+     "nome": "CNA",
+     "url": "https://www.channelnewsasia.com/asia/us-japan-agree-build-missile-production-facility-6501576",
+     "lang": "EN",
+     "publicado": "2026-10-29T01:18:00.000Z"
+    }
+   ],
+   "lat": 35.687,
+   "lng": 139.749,
+   "publicado": "2026-10-29T15:58:27.000Z",
+   "atualizado": "2026-10-29T15:58:27.000Z"
+  },
+  {
+   "id": "n29",
+   "a3": "TZA",
+   "pais": "Tanzânia",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Tanzânia marca um ano de violência eleitoral sem justiça para vítimas",
+   "resumo": "Familiares de mortos na repressão ao pleito do ano passado seguem sem respostas, enquanto críticos do governo denunciam medo de prisões arbitrárias.",
+   "fontes": [
+    {
+     "nome": "Africanews",
+     "url": "http://www.africanews.com/2026/10/29/a-year-after-tanzanias-bloody-election-victims-still-await-justice/",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:58:45.000Z"
+    },
+    {
+     "nome": "The Africa Report",
+     "url": "https://www.theafricareport.com/434951/cry-for-justice-as-tanzania-marks-one-year-after-deadly-election-violence/",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:37:22.000Z"
+    },
+    {
+     "nome": "BBC Africa",
+     "url": "https://www.bbc.co.uk/news/articles/cqdr8mgl5756o?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T00:25:48.000Z"
+    }
+   ],
+   "lat": -6.798,
+   "lng": 39.266,
+   "publicado": "2026-10-29T14:37:22.000Z",
+   "atualizado": "2026-10-29T14:58:45.000Z"
+  },
+  {
+   "id": "n30",
+   "a3": "ARE",
+   "pais": "Emirados Árabes Unidos",
+   "cat": "conflito",
+   "rel": 3,
+   "titulo": "Emirados Árabes condenam oito pessoas à prisão perpétua por armas a Sudão",
+   "resumo": "A sentença ocorre em meio a tensões entre Cartum e Abu Dhabi sobre o fornecimento de armamento a facções envolvidas na guerra civil sudanesa.",
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/uae-sentences-eight-people-to-life-over-arms-supplies-to-sudans-army?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:25:17.000Z"
+    }
+   ],
+   "lat": 24.467,
+   "lng": 54.367,
+   "publicado": "2026-10-29T17:25:17.000Z",
+   "atualizado": "2026-10-29T17:25:17.000Z"
+  },
+  {
+   "id": "n31",
+   "a3": "GRC",
+   "pais": "Grécia",
+   "cat": "conflito",
+   "rel": 3,
+   "titulo": "Premiê da Grécia pede trégua marítima global após afundamento de navio",
+   "resumo": "Mitsotakis reagiu ao ataque de drones que afundou um navio grego, pedindo medidas internacionais para proteger rotas comerciais marítimas.",
+   "fontes": [
+    {
+     "nome": "Al-Monitor",
+     "url": "https://www.al-monitor.com/originals/2026/10/greek-pm-calls-global-maritime-truce-after-greek-ship-sunk-drone-attack",
+     "lang": "EN",
+     "publicado": "2026-10-29T15:46:36.000Z"
+    }
+   ],
+   "lat": 37.985,
+   "lng": 23.731,
+   "publicado": "2026-10-29T15:46:36.000Z",
+   "atualizado": "2026-10-29T15:46:36.000Z"
+  },
+  {
+   "id": "n32",
+   "a3": "ESP",
+   "pais": "Espanha",
+   "cat": "crise",
+   "rel": 4,
+   "titulo": "Acidente ferroviário na Espanha se transforma em crise política",
+   "resumo": "Oposição pede que Sánchez compareça ao Congresso e cobra demissão do ministro dos Transportes, após segundo acidente fatal de trem em menos de um ano.",
+   "fontes": [
+    {
+     "nome": "El País",
+     "url": "https://elpais.com/espana/2026-10-29/ultima-hora-y-reacciones-tras-el-accidente-de-trenes-de-urda-toledo-en-directo.html",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:54:29.000Z"
+    },
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/espana/agencias/2026/10/29/el-pp-pide-la-comparecencia-de-sanchez-en-el-congreso-para-explicar-el-accidente-de-urda/",
+     "lang": "ES",
+     "publicado": "2026-10-29T17:47:58.000Z"
+    },
+    {
+     "nome": "Estadão",
+     "url": "https://www.estadao.com.br/internacional/acidente-de-trens-na-espanha-se-converte-em-tema-da-campanha-eleitoral-a-um-mes-da-eleicao-npr/",
+     "lang": "PT",
+     "publicado": "2026-10-29T14:34:30.000Z"
+    },
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/video/20261029-al-menos-69-muertos-por-choque-de-trenes-en-espa%C3%B1a-oposici%C3%B3n-exige-responsabilidades-pol%C3%ADticas",
+     "lang": "ES",
+     "publicado": "2026-10-29T13:51:11.000Z"
+    },
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T11:07:35.000Z"
+    },
+    {
+     "nome": "Guardian",
+     "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+     "lang": "EN",
+     "publicado": "2026-10-29T17:59:03.000Z"
+    }
+   ],
+   "lat": 40.402,
+   "lng": -3.685,
+   "publicado": "2026-10-29T14:34:30.000Z",
+   "atualizado": "2026-10-29T17:59:03.000Z"
+  },
+  {
+   "id": "n69",
+   "a3": "ESP",
+   "pais": "Espanha",
+   "cat": "crise",
+   "rel": 2,
+   "titulo": "Junta Eleitoral abre sexto processo contra Pedro Sánchez por vídeo com o Guernica",
+   "resumo": "A Junta Electoral Central sustenta que o primeiro-ministro pode ter violado a lei eleitoral com o vídeo gravado no Museu Reina Sofía.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/espana/2026/10/29/pedro-sanchez-expedientado-por-sexta-vez-por-la-junta-electoral-central-por-el-video-con-el-guernica-en-el-museo-reina-sofia/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:45:40.000Z"
+    }
+   ],
+   "lat": 40.402,
+   "lng": -3.685,
+   "publicado": "2026-10-29T18:45:40.000Z",
+   "atualizado": "2026-10-29T18:45:40.000Z"
+  },
+  {
+   "id": "n54",
+   "a3": "IRN",
+   "pais": "Irã",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Separatistas no Irã intensificam ataques à espera de ofensiva dos EUA",
+   "resumo": "Grupos separatistas iranianos aumentaram ataques, antecipando uma possível ação militar americana em larga escala em meio à escalada de tensão no Golfo.",
+   "fontes": [
+    {
+     "nome": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/politics/iran-separatists-step-up-attacks-anticipating-full-scale-us-assault",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:12:34.892Z"
+    }
+   ],
+   "lat": 35.674,
+   "lng": 51.422,
+   "publicado": "2026-10-29T18:12:34.892Z",
+   "atualizado": "2026-10-29T18:12:34.892Z"
+  },
+  {
+   "id": "n33",
+   "a3": "IRN",
+   "pais": "Irã",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Tensão no Estreito de Hormuz escala com drone dos EUA abatido pelo Irã",
+   "resumo": "Um navio pegou fogo perto de Omã e o Irã abateu outro drone americano, elevando o risco de confronto na rota marítima vital para o petróleo global.",
+   "fontes": [
+    {
+     "nome": "DW",
+     "url": "https://www.dw.com/en/ship-reported-on-fire-off-oman-as-iran-escalation-fears-mount/a-79792733?maca=en-rss-en-world-4025-rdf",
+     "lang": "EN",
+     "publicado": "2026-10-29T10:04:00.000Z"
+    },
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/burnham-says-uk-doing-everything-support-reopening-strait-hormuz",
+     "lang": "EN",
+     "publicado": "2026-10-29T13:46:26.000Z"
+    }
+   ],
+   "lat": 35.674,
+   "lng": 51.422,
+   "publicado": "2026-10-29T10:04:00.000Z",
+   "atualizado": "2026-10-29T13:46:26.000Z"
+  },
+  {
+   "id": "n34",
+   "a3": "IRN",
+   "pais": "Irã",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "EUA tentam reabrir canal diplomático com o Irã antes das eleições",
+   "resumo": "O vice-presidente JD Vance contatou autoridade iraniana para tentar retomar negociações de paz, enquanto a Rússia se oferece como mediadora entre Teerã e Washington.",
+   "fontes": [
+    {
+     "nome": "Euronews",
+     "url": "https://www.euronews.com/2026/10/29/jd-vance-contacts-senior-iranian-official-in-bid-to-revive-peace-talks",
+     "lang": "EN",
+     "publicado": "2026-10-29T13:32:32.000Z"
+    },
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/russia-offers-mediate-between-iran-and-us-report",
+     "lang": "EN",
+     "publicado": "2026-10-29T13:37:50.000Z"
+    },
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/28/us/politics/vance-peace-talks-letter-iran.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T02:15:19.000Z"
+    }
+   ],
+   "lat": 35.674,
+   "lng": 51.422,
+   "publicado": "2026-10-29T13:32:32.000Z",
+   "atualizado": "2026-10-29T13:37:50.000Z"
+  },
+  {
+   "id": "n35",
+   "a3": "KOR",
+   "pais": "Coreia do Sul",
+   "cat": "crise",
+   "rel": 4,
+   "titulo": "Promotores da Coreia do Sul pedem pena de morte para ex-presidente Yoon",
+   "resumo": "Promotoria especial reforça pedido de pena máxima contra Yoon Suk-yeol por insurreição ligada à tentativa de lei marcial, em meio a recurso contra prisão perpétua.",
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/south-korean-prosecutors-press-for-death-sentence-in-yoon-martial-law-case?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T12:36:43.000Z"
+    },
+    {
+     "nome": "SCMP",
+     "url": "https://www.scmp.com/news/asia/east-asia/article/3372576/south-korean-prosecutor-seeks-death-penalty-yoon-over-martial-law",
+     "lang": "EN",
+     "publicado": "2026-10-29T08:43:41.000Z"
+    }
+   ],
+   "lat": 37.568,
+   "lng": 126.998,
+   "publicado": "2026-10-29T08:43:41.000Z",
+   "atualizado": "2026-10-29T12:36:43.000Z"
+  },
+  {
+   "id": "n40",
+   "a3": "ETH",
+   "pais": "Etiópia",
+   "cat": "conflito",
+   "rel": 4,
+   "titulo": "Etiópia compra caças russos em meio a guerra em Tigré e tensão regional",
+   "resumo": "Novas aquisições militares de Adis Abeba elevam o poderio aéreo do país e acirram o impasse com a Eritreia, enquanto o Sudão acusa a Etiópia de ataques com drones.",
+   "fontes": [
+    {
+     "nome": "BBC",
+     "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T08:23:31.000Z"
+    },
+    {
+     "nome": "The Africa Report",
+     "url": "https://www.theafricareport.com/434873/ethiopias-russian-fighter-jets-raise-stakes-in-eritrea-standoff/",
+     "lang": "EN",
+     "publicado": "2026-10-29T13:30:00.000Z"
+    },
+    {
+     "nome": "AllAfrica",
+     "url": "https://allafrica.com/stories/202610290159.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T06:35:06.000Z"
+    }
+   ],
+   "lat": 9.035,
+   "lng": 38.698,
+   "publicado": "2026-10-29T06:35:06.000Z",
+   "atualizado": "2026-10-29T13:30:00.000Z"
+  },
+  {
+   "id": "n41",
+   "a3": "COD",
+   "pais": "República Democrática do Congo",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Oposição congolesa se reúne em Roma sob pressão da rebelião de Kabila",
+   "resumo": "A coalizão opositora C64 pediu diálogo inclusivo diante do avanço da rebelião liderada pelo ex-presidente Joseph Kabila na RD Congo.",
+   "fontes": [
+    {
+     "nome": "France 24",
+     "url": "https://www.france24.com/en/video/20261029-drc-c64-opposition-coalition-meets-in-rome-calls-for-inclusive-dialogue",
+     "lang": "EN",
+     "publicado": "2026-10-29T13:28:19.000Z"
+    }
+   ],
+   "lat": -4.328,
+   "lng": 15.313,
+   "publicado": "2026-10-29T13:28:19.000Z",
+   "atualizado": "2026-10-29T13:28:19.000Z"
+  },
+  {
+   "id": "n42",
+   "a3": "NIC",
+   "pais": "Nicarágua",
+   "cat": "crise",
+   "rel": 4,
+   "titulo": "ONU aponta 'ditadura absoluta' de Ortega na Nicarágua",
+   "resumo": "Relatório de especialistas da ONU afirma haver motivos razoáveis para crer que o governo de Daniel Ortega pratica desaparecimentos forçados e prisões arbitrárias.",
+   "fontes": [
+    {
+     "nome": "France 24 ES",
+     "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261029-desapariciones-forzadas-y-encarcelamientos-as%C3%AD-opera-una-dictadura-absoluta-en-nicaragua-seg%C3%BAn-informe-de-la-onu",
+     "lang": "ES",
+     "publicado": "2026-10-29T09:15:03.000Z"
+    }
+   ],
+   "lat": 12.155,
+   "lng": -86.27,
+   "publicado": "2026-10-29T09:15:03.000Z",
+   "atualizado": "2026-10-29T09:15:03.000Z"
+  },
+  {
+   "id": "n43",
+   "a3": "IND",
+   "pais": "Índia",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Grandes grupos de mídia indianos se unem contra lei de privacidade",
+   "resumo": "Veículos ligados a bilionários próximos de Modi alertam que a futura legislação de privacidade pode inviabilizar o jornalismo investigativo no país.",
+   "fontes": [
+    {
+     "nome": "NYT",
+     "url": "https://www.nytimes.com/2026/10/29/world/asia/india-media-privacy-law.html",
+     "lang": "EN",
+     "publicado": "2026-10-29T06:10:53.000Z"
+    }
+   ],
+   "lat": 28.6,
+   "lng": 77.2,
+   "publicado": "2026-10-29T06:10:53.000Z",
+   "atualizado": "2026-10-29T06:10:53.000Z"
+  },
+  {
+   "id": "n44",
+   "a3": "BGD",
+   "pais": "Bangladesh",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Tribunal de Bangladesh condena à morte aliado de Sheikh Hasina",
+   "resumo": "Quatro integrantes da Liga Awami, partido da ex-premiê deposta Sheikh Hasina, foram condenados por mortes durante a revolta popular que a derrubou.",
+   "fontes": [
+    {
+     "nome": "CNA",
+     "url": "https://www.channelnewsasia.com/asia/bangladesh-court-sentences-senior-sheikh-hasina-ally-death-over-uprising-killings-6503766",
+     "lang": "EN",
+     "publicado": "2026-10-29T14:04:54.000Z"
+    }
+   ],
+   "lat": 23.725,
+   "lng": 90.407,
+   "publicado": "2026-10-29T14:04:54.000Z",
+   "atualizado": "2026-10-29T14:04:54.000Z"
+  },
+  {
+   "id": "n48",
+   "a3": "ARG",
+   "pais": "Argentina",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "Fuga de Flávio Bolsonaro via Argentina tensiona relação entre Milei e Lula",
+   "resumo": "Senador usou a Argentina como rota de fuga para os EUA; deputados argentinos acusam Milei de facilitar a saída e pedem reconhecimento da vitória de Lula.",
+   "fontes": [
+    {
+     "nome": "MercoPress",
+     "url": "https://en.mercopress.com/2026/10/29/bolsonaro-s-exit-via-argentina-further-strains-relations-between-milei-and-lula?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T01:30:00.000Z"
+    },
+    {
+     "nome": "G1 Mundo",
+     "url": "https://g1.globo.com/mundo/noticia/2026/10/28/deputados-argentinos-acusam-milei-de-facilitar-fuga-de-flavio-e-pedem-reconhecimento-da-vitoria-de-lula.ghtml",
+     "lang": "PT",
+     "publicado": "2026-10-29T00:43:12.000Z"
+    },
+    {
+     "nome": "Folha",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/ex-ministra-de-milei-reconhece-eleicao-de-lula-em-meio-a-silencio-do-argentino.shtml",
+     "lang": "PT",
+     "publicado": "2026-10-28T19:19:00.000Z"
+    }
+   ],
+   "lat": -34.601,
+   "lng": -58.399,
+   "publicado": "2026-10-28T19:19:00.000Z",
+   "atualizado": "2026-10-29T01:30:00.000Z"
+  },
+  {
+   "id": "n59",
+   "a3": "RUS",
+   "pais": "Rússia",
+   "cat": "conflito",
+   "rel": 3,
+   "titulo": "Putin diz que Rússia está pronta para guerra com a Europa, mas não a quer",
+   "resumo": "Putin afirmou que Moscou está pronta para uma guerra com a Europa, mas não quer uma, e saudou a ligação recente dos líderes da Finlândia e da Noruega.",
+   "fontes": [
+    {
+     "nome": "Meduza",
+     "url": "https://meduza.io/en/news/2026/10/29/if-things-go-too-far-there-will-be-no-winners-putin-warns-europe-says-russia-is-ready-for-war-but-doesn-t-want-one",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:25:13.000Z"
+    },
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/putin-saluda-llamada-de-lideres-de-finlandia-y-noruega-y-dice-no-querer-guerra-con-europa/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:31:03.000Z"
+    }
+   ],
+   "lat": 55.754,
+   "lng": 37.614,
+   "publicado": "2026-10-29T18:25:13.000Z",
+   "atualizado": "2026-10-29T18:31:03.000Z"
+  },
+  {
+   "id": "n52",
+   "a3": "RUS",
+   "pais": "Rússia",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "Rússia recebe terceira cúpula Rússia-África em meio a sanções ocidentais",
+   "resumo": "Moscou busca reviver presença econômica no continente africano, com empresas russas atuando em energia nuclear, mineração e tecnologia apesar das sanções.",
+   "fontes": [
+    {
+     "nome": "The Africa Report",
+     "url": "https://www.theafricareport.com/434820/yango-rosatom-nordgold-the-russian-firms-thriving-in-africa-despite-sanctions/",
+     "lang": "EN",
+     "publicado": "2026-10-29T05:37:05.000Z"
+    }
+   ],
+   "lat": 55.754,
+   "lng": 37.614,
+   "publicado": "2026-10-29T05:37:05.000Z",
+   "atualizado": "2026-10-29T05:37:05.000Z"
+  },
+  {
+   "id": "n53",
+   "a3": "LKA",
+   "pais": "Sri Lanka",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Combate à corrupção no Sri Lanka avança sobre a dinastia Rajapaksa",
+   "resumo": "Investigações anticorrupção no Sri Lanka colocam membros da família Rajapaksa, que dominou a política do país por décadas, sob risco legal.",
+   "fontes": [
+    {
+     "nome": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/politics/sri-lanka-s-anti-corruption-drive-puts-rajapaksa-dynasty-in-dock",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:12:34.892Z"
+    }
+   ],
+   "lat": 6.932,
+   "lng": 79.858,
+   "publicado": "2026-10-29T18:12:34.892Z",
+   "atualizado": "2026-10-29T18:12:34.892Z"
+  },
+  {
+   "id": "n55",
+   "a3": "PHL",
+   "pais": "Filipinas",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "EUA reafirmam compromisso de segurança com o Sudeste Asiático em Cebu",
+   "resumo": "Na reunião de ministros de Defesa da Asean, Hegseth prometeu defender aliados na região, enquanto a Austrália alertou para pressão crescente do poder militar chinês.",
+   "fontes": [
+    {
+     "nome": "The Diplomat",
+     "url": "https://thediplomat.com/2026/10/hegseth-seeks-to-reassure-southeast-asia-of-us-security-commitment-to-the-region/",
+     "lang": "EN",
+     "publicado": "2026-10-29T01:04:00.000Z"
+    },
+    {
+     "nome": "CNA",
+     "url": "https://www.channelnewsasia.com/asia/china-military-buildup-creates-pressure-southeast-asia-australia-6502011",
+     "lang": "EN",
+     "publicado": "2026-10-29T02:38:00.000Z"
+    }
+   ],
+   "lat": 14.606,
+   "lng": 120.98,
+   "publicado": "2026-10-29T01:04:00.000Z",
+   "atualizado": "2026-10-29T02:38:00.000Z"
+  },
+  {
+   "id": "n56",
+   "a3": "PHL",
+   "pais": "Filipinas",
+   "cat": "votacao",
+   "rel": 3,
+   "titulo": "Suprema Corte das Filipinas limita dinastias políticas e orçamento do governo",
+   "resumo": "Decisões da Suprema Corte sobre dinastias políticas e o sistema orçamentário podem ter impacto significativo sobre o governo de Marcos.",
+   "fontes": [
+    {
+     "nome": "The Diplomat",
+     "url": "https://thediplomat.com/2026/10/the-impact-of-the-philippine-supreme-courts-recent-landmark-rulings/",
+     "lang": "EN",
+     "publicado": "2026-10-28T19:58:00.000Z"
+    }
+   ],
+   "lat": 14.606,
+   "lng": 120.98,
+   "publicado": "2026-10-28T19:58:00.000Z",
+   "atualizado": "2026-10-28T19:58:00.000Z"
+  },
+  {
+   "id": "n57",
+   "a3": "CUB",
+   "pais": "Cuba",
+   "cat": "diplomacia",
+   "rel": 3,
+   "titulo": "Apoio a resolução da ONU contra embargo dos EUA a Cuba cai a mínima em 30 anos",
+   "resumo": "Resoluções que pedem o fim do embargo americano a Cuba eram aprovadas quase unanimemente desde 1992, mas o apoio despencou este ano, sinal de mudança geopolítica.",
+   "fontes": [
+    {
+     "nome": "Euronews",
+     "url": "https://www.euronews.com/2026/10/28/support-for-un-vote-to-end-us-embargo-on-cuba-falls-to-30-year-low",
+     "lang": "EN",
+     "publicado": "2026-10-28T21:45:20.000Z"
+    }
+   ],
+   "lat": 23.134,
+   "lng": -82.366,
+   "publicado": "2026-10-28T21:45:20.000Z",
+   "atualizado": "2026-10-28T21:45:20.000Z"
+  },
+  {
+   "id": "n66",
+   "a3": "CUB",
+   "pais": "Cuba",
+   "cat": "diplomacia",
+   "rel": 2,
+   "titulo": "EUA enviam segundo carregamento de ajuda humanitária à diocese de Santa Clara",
+   "resumo": "A diocese de Santa Clara, no centro de Cuba, recebeu nesta quinta-feira uma nova remessa de ajuda humanitária do governo dos Estados Unidos.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/agencias/2026/10/29/segundo-cargamento-de-ayuda-humanitaria-de-eeuu-llega-a-la-diocesis-cubana-de-santa-clara/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:47:16.000Z"
+    }
+   ],
+   "lat": 23.134,
+   "lng": -82.366,
+   "publicado": "2026-10-29T18:47:16.000Z",
+   "atualizado": "2026-10-29T18:47:16.000Z"
+  },
+  {
+   "id": "n60",
+   "a3": "PSX",
+   "pais": "Palestina",
+   "cat": "conflito",
+   "rel": 2,
+   "titulo": "Bombardeio israelense mata um palestino no campo de Halawa, em Gaza",
+   "resumo": "Segundo fontes médicas, um ataque israelense matou uma pessoa no campo de Halawa, um dos maiores campos de deslocados do norte de Gaza.",
+   "fontes": [
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-one-palestinian-attacks-gaza",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:24:17.000Z"
+    }
+   ],
+   "publicado": "2026-10-29T18:24:17.000Z",
+   "atualizado": "2026-10-29T18:24:17.000Z"
+  },
+  {
+   "id": "n61",
+   "a3": "ZAF",
+   "pais": "África do Sul",
+   "cat": "eleicao",
+   "rel": 2,
+   "titulo": "Eleições municipais na África do Sul se cruzam com solidariedade a Gaza",
+   "resumo": "Às vésperas das eleições locais, a solidariedade ao povo palestino em Gaza ganha espaço no debate público sul-africano.",
+   "fontes": [
+    {
+     "nome": "Middle East Eye",
+     "url": "https://www.middleeasteye.net/news/in-south-africa-municipal-elections-collide-with-solidarity-for-gaza",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:36:22.000Z"
+    }
+   ],
+   "lat": -33.918,
+   "lng": 18.433,
+   "publicado": "2026-10-29T18:36:22.000Z",
+   "atualizado": "2026-10-29T18:36:22.000Z"
+  },
+  {
+   "id": "n62",
+   "a3": "ALB",
+   "pais": "Albânia",
+   "cat": "crise",
+   "rel": 3,
+   "titulo": "Oposição invade plenário do Parlamento albanês com sinalizadores e bombas de fumaça",
+   "resumo": "Deputados da oposição interromperam a sessão acusando o primeiro-ministro de minimizar os protestos antigoverno que seguem no país.",
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/albanian-opposition-storms-parliament-sets-off-flares-and-smoke-bombs?traffic_source=rss",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:11:46.000Z"
+    }
+   ],
+   "lat": 41.328,
+   "lng": 19.819,
+   "publicado": "2026-10-29T18:11:46.000Z",
+   "atualizado": "2026-10-29T18:11:46.000Z"
+  },
+  {
+   "id": "n63",
+   "a3": "PER",
+   "pais": "Peru",
+   "cat": "crise",
+   "rel": 2,
+   "titulo": "Denúncia constitucional pede inabilitação de Rospigliosi por pressionar juízes",
+   "resumo": "O congressista é acusado de exigir da JNJ a destituição de magistrados que deixaram de aplicar leis consideradas pró-crime pelo Parlamento anterior.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/peru/2026/10/29/denuncian-constitucionalmente-a-fernando-rospigliosi-y-piden-su-inhabilitacion-por-10-anos-por-amedrentar-jueces/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:51:24.000Z"
+    }
+   ],
+   "lat": -12.046,
+   "lng": -77.052,
+   "publicado": "2026-10-29T18:51:24.000Z",
+   "atualizado": "2026-10-29T18:51:24.000Z"
+  },
+  {
+   "id": "n64",
+   "a3": "COL",
+   "pais": "Colômbia",
+   "cat": "diplomacia",
+   "rel": 2,
+   "titulo": "Nenhum dos 22 embaixadores de Abelardo de la Espriella é diplomata de carreira",
+   "resumo": "A primeira lista de embaixadores do governo reúne políticos, empresários e aliados, apesar da promessa eleitoral de fortalecer o serviço exterior.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/colombia/2026/10/29/ninguno-de-los-22-embajadores-designados-por-el-gobierno-de-abelardo-de-la-espriella-pertenece-a-la-carrera-diplomatica-estos-son-los-perfiles-de-los-nuevos-diplomaticos/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:24:12.000Z"
+    }
+   ],
+   "lat": 4.598,
+   "lng": -74.085,
+   "publicado": "2026-10-29T18:24:12.000Z",
+   "atualizado": "2026-10-29T18:24:12.000Z"
+  },
+  {
+   "id": "n65",
+   "a3": "MEX",
+   "pais": "México",
+   "cat": "eleicao",
+   "rel": 2,
+   "titulo": "Governo quer licitar material eleitoral após suspeitas de irregularidades no INE",
+   "resumo": "A proposta prevê que a Talleres Gráficos seja a empresa responsável e revisa as supostas irregularidades atribuídas à ex-presidenta do INE, Guadalupe Taddei.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/mexico/2026/10/29/gobierno-va-por-licitar-material-electoral-tras-presuntas-irregularidades-en-el-ine-alista-propuesta-para-que-talleres-graficos-sea-empresa/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:53:19.000Z"
+    }
+   ],
+   "lat": 19.444,
+   "lng": -99.133,
+   "publicado": "2026-10-29T18:53:19.000Z",
+   "atualizado": "2026-10-29T18:53:19.000Z"
+  },
+  {
+   "id": "n67",
+   "a3": "FJI",
+   "pais": "Fiji",
+   "cat": "diplomacia",
+   "rel": 2,
+   "titulo": "Ex-presidente de Kiribati critica parceria do Fórum das Ilhas do Pacífico com Israel",
+   "resumo": "Anote Tong, presidente da Voz dos Anciãos do Pacífico, afirma que a afinidade religiosa não justifica a parceria, que considera moralmente indefensável.",
+   "fontes": [
+    {
+     "nome": "RNZ Pacific",
+     "url": "https://www.rnz.co.nz/news/pacific/2231510/former-kiribati-president-says-pacific-islands-forum-israel-partnership-not-morally-defensible",
+     "lang": "EN",
+     "publicado": "2026-10-29T18:31:52.000Z"
+    }
+   ],
+   "lat": -18.133,
+   "lng": 178.442,
+   "publicado": "2026-10-29T18:31:52.000Z",
+   "atualizado": "2026-10-29T18:31:52.000Z"
+  },
+  {
+   "id": "n68",
+   "a3": "ARM",
+   "pais": "Armênia",
+   "cat": "crise",
+   "rel": 2,
+   "titulo": "Deputados governistas e opositores brigam no Parlamento da Armênia",
+   "resumo": "A sessão foi interrompida depois que a discussão entre parlamentares do Contrato Cívico e da Armênia Forte virou empurrões e socos.",
+   "fontes": [
+    {
+     "nome": "Infobae",
+     "url": "https://www.infobae.com/america/mundo/2026/10/29/una-fuerte-pelea-entre-diputados-oficialistas-y-opositores-interrumpio-la-sesion-del-parlamento-de-armenia/",
+     "lang": "ES",
+     "publicado": "2026-10-29T18:22:51.000Z"
+    }
+   ],
+   "lat": 40.183,
+   "lng": 44.512,
+   "publicado": "2026-10-29T18:22:51.000Z",
+   "atualizado": "2026-10-29T18:22:51.000Z"
+  }
+ ]
+}
